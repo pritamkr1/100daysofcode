@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --border-radius: 2px;
+    --font-style: 'Poppins', sans-serif;
+}
+
+.brand i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    border-radius: var(--border-radius);
+    width: 45px;
+    padding: 6px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.068);
+    font-family: var(--font-style);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    overflow: hidden;
+    text-align: center;
+    font-family: var(--font-style);
+    font-weight: 700;
+    font-size: 3rem;
+}
+.count-day{
+    font-size: 1rem;
+    font-family: var(--font-style);
+    font-weight: 300;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    font-family: var(--font-style);
+    padding: 13px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.089);
+    font-size: 12px;
+}
+.date-conatiner{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: var(--font-style);
+}
+.date-conatiner button{
+    margin-left: 10px;
+    height: 100%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+input[type="date"]{
+    height: 100%;
+    cursor: pointer;
+    outline: 0;
+    text-align: center;
+}
+input[type="text"]{
+    height: 100%;
+    cursor: pointer;
+    outline: 0;
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Pritam Kumar">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="hover.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap" rel="stylesheet">
+        <title>100DaysOfCode</title>
+    </head>
+
+    <body>
+        <nav>
+            <div class="brand">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="clock-container">
+                <ul>
+                    <li class="hour">?</li>:
+                    <li class="min">?</li>:
+                    <li class="sec">?</li>:
+                    <li class="period">?</li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+
+            <div class="days-counter">
+                <span class="big-text">#<span  class="count">100</span>DaysOfCode<br>
+                
+            </div>
+
+            <div class="date-conatiner">
+                    <input type="text" id="number" autofocus required>
+                    <input type="date" id="mydate" min="2021-01-01" required>
+                    <button class="btn-set" onclick="setDates()">Apply</button>
+            </div>
+            <P class="count-day"> ?</P>
+        </main>
+
+        
+
+        <footer>
+            <p>Code By Pritam</p>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+    
+</html>
